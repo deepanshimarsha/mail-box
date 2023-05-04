@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function MailCard({mail}){
 
-    const {state, dispatch} = useContext(MailContext)
+    const {dispatch} = useContext(MailContext)
 
     return (
         <li className='list-item' style={{backgroundColor : mail.unread? "#f2f6fc":""}}>

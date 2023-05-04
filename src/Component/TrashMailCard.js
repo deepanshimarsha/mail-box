@@ -3,7 +3,7 @@ import { MailContext } from '../context/mail-context';
 import { NavLink } from 'react-router-dom';
 
 export default function TrashMailCard({mail}){
-    const {state, dispatch} = useContext(MailContext)
+    const {dispatch} = useContext(MailContext)
 
     return (
 

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 
 export default function Trash(){
 
-    const {state, dispatch} = useContext(MailContext)
+    const {state} = useContext(MailContext)
 
     return (
         

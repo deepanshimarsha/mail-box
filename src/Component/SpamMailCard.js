@@ -3,7 +3,7 @@ import { MailContext } from '../context/mail-context';
 import { NavLink } from 'react-router-dom';
 
 export default function SpamMailCard({mail}){
-    const {state, dispatch} = useContext(MailContext)
+    const {dispatch} = useContext(MailContext)
     console.log(mail.mId)
 
     return (

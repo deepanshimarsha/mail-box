@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import {NavLink, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 import Inbox from './pages/Inbox';
 import Spam from './pages/Spam';
 import Detail from './pages/Detail';

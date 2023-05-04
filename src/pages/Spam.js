@@ -4,7 +4,7 @@ import SpamMailCard from "../Component/SpamMailCard"
 import { NavLink } from "react-router-dom"
 
 export default function Spam(){
-    const {state, dispatch} = useContext(MailContext)
+    const {state} = useContext(MailContext)
 
 
  return (

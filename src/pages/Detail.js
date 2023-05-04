@@ -10,8 +10,7 @@ export default function Detail(){
     const {state} = useContext(MailContext)
 
     const mailDetail = state.mailData.find(({mId}) => mId === mailId)
-    
-    const {subject, content} = mailDetail
+
 
     return (
         <div className='main'>
