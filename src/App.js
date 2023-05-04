@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import {NavLink, Routes, Route } from 'react-router-dom';
+import Inbox from './pages/Inbox';
+import Spam from './pages/Spam';
+import Detail from './pages/Detail';
+import Trash from './pages/Trash';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      
+     <Routes>
+      <Route path='/' element={<Inbox/>}/>
+      <Route path='/spam' element={<Spam/>}/>
+      <Route path='/trash' element={<Trash/>}/>
+      <Route path='/detail/:mailId' element={<Detail/>}/>
+     </Routes>
+      
     </div>
   );
 }
