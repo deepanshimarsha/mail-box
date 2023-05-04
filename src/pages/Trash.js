@@ -19,7 +19,7 @@ export default function Trash(){
     
     <div className='content'>
     
-      <h1 className='heading'>Trash Folder</h1>
+      <h1 className='heading'>Trash</h1>
       {state.trash.length === 0 ? (<h3 style={{textAlign:"center", paddingTop : "10px"}}>Trash is Empty</h3>) : (
 
 

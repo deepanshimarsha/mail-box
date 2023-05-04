@@ -18,7 +18,7 @@ export default function Spam(){
 
 <div className='content'>
 
-  <h1 className='heading'>Spam Folder</h1>
+  <h1 className='heading'>Spam Mails</h1>
 
         {state.spam.length === 0 ? (<h3 style={{textAlign:"center", paddingTop : "10px"}}>No Spam Mails</h3>) : (
 
