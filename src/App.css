@@ -208,8 +208,11 @@ ul{
 }
 
 .list-heading{
+  
+  height: 40px;
+}
+.para{
   margin-bottom: 10px;
-  height: 70px;
 }
   fieldset {
     margin-left: 30px;
