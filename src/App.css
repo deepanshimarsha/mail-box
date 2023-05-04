@@ -232,8 +232,10 @@ ul{
       border: solid 0.1px lightgrey;
       
   }
-
- 
+  .heading {
+    margin-left: 65px;
+  }
+  
   
   .list {
     margin-bottom: 80px;
