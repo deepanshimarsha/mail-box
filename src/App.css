@@ -218,8 +218,8 @@ ul{
     margin-left: 30px;
   }
 
-  .content h3 {
-    margin-left: 30px;
+  h3 {
+    margin-left: 70px;
 }
   .sideNav {
       background-color: #f6f8fc;
@@ -253,6 +253,7 @@ ul{
       width: 100%
   }
 
+  
   li {
       margin: 0 10px 0 -25px
   }
