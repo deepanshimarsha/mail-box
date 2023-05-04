@@ -23,7 +23,7 @@ export default function Trash(){
       {state.trash.length === 0 ? (<h3 style={{textAlign:"center", paddingTop : "10px"}}>Trash is Empty</h3>) : (
 
 
-<ul>
+<ul className="list">
 {state.trash.map((mail) => {
     return(
         <TrashMailCard mail={mail}/>

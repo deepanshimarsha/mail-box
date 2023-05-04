@@ -24,8 +24,10 @@ export default function Detail(){
         <div className='content'>
 
           <h1 className='heading'>Details</h1>
-
+          <ul className='list'>
           <DetailCard mail={mailDetail}/>
+          </ul>
+        
 
         </div>
         </div>

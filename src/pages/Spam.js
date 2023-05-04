@@ -22,7 +22,7 @@ export default function Spam(){
 
         {state.spam.length === 0 ? (<h3 style={{textAlign:"center", paddingTop : "10px"}}>No Spam Mails</h3>) : (
 
-            <ul>
+            <ul className="list">
                 {state.spam.map((mail) => {
                     return(
                         <SpamMailCard mail={mail}/>

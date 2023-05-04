@@ -23,23 +23,23 @@ export default function Inbox(){
           
           <fieldset style={{borderRadius: "5px", padding:"10px", paddingBottom:"20px", width:"96%"}}>
             <legend>Filters</legend>
-            <input 
+            <label><input 
 
               type='checkbox'
               checked={state.showUnread}
               onChange={() => dispatch({type: "TOGGLE_SHOW_UNREAD"})}>
 
             </input>
-            <label>show Unread mails</label>
+            show Unread mails</label>
 
-            <input 
+            <label><input 
 
               type='checkbox'
               checked={state.showStarred}
               onChange={() => dispatch({type: "TOGGLE_SHOW_STARRED"})}>
 
             </input>
-            <label>show starred mails</label>
+            show starred mails</label>
           </fieldset>
 
           <h3>Unread : {unreadCount}</h3>
